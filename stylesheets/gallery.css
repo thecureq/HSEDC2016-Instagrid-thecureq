@@ -1,0 +1,23 @@
+.gallery {
+  position: relative;
+  overflow: hidden;
+}
+
+.galleryRail {
+  display: flex;
+  transition: all .3s ease;
+  min-width: 996px;
+  /*height: auto;*/
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.galleryRail img {
+  max-width: 100%;
+}
+
+.small {
+  display: flex;
+  flex-direction: column;
+
+}
