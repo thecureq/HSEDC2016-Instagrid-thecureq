@@ -2,6 +2,21 @@
   box-sizing: border-box;
 }
 
+body {
+  min-width: 996px;
+}
+
+figure {
+  display: inline-block;
+  background-size: cover;
+}
+
 /*body {
   min-width: 996px;
+  display: flex;
+  /*position: relative;
+  overflow: hidden;
+  width: 1440px;
+  margin: 0 auto;
+  align-items: center;
 }*/
