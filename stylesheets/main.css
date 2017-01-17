@@ -3,20 +3,16 @@
 }
 
 body {
-  min-width: 996px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 figure {
   display: inline-block;
   background-size: cover;
 }
-
-/*body {
-  min-width: 996px;
-  display: flex;
-  /*position: relative;
-  overflow: hidden;
-  width: 1440px;
-  margin: 0 auto;
-  align-items: center;
-}*/

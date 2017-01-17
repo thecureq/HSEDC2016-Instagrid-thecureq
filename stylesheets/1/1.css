@@ -1,0 +1,57 @@
+* {
+  overflow-y: hidden;
+}
+
+figure {
+  display: inline-block;
+  background-size: cover;
+}
+
+div.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: absolute;
+  height: 100vh;
+}
+
+div.small {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  height: 100vh;
+}
+
+figure.big {
+  width: 100vh;
+  height: 100vh;
+}
+
+figure.small {
+  width: 50vh;
+  height: 100vh;
+}
+
+#img1 {
+  background-image: url(../../img/img1.jpg);
+}
+
+#img2 {
+  background-image: url(../../img/img2.jpg);
+}
+
+#img3 {
+  background-image: url(../../img/img3.jpg);
+}
+
+#img4 {
+  background-image: url(../../img/img4.jpg);
+}
+
+#img5 {
+  background-image: url(../../img/img5.jpg);
+}
+
+#img6 {
+  background-image: url(../../img/img6.jpg);
+}

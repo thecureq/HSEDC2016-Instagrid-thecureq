@@ -1,0 +1,47 @@
+* {
+  overflow-y: hidden;
+}
+
+.menu {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  z-index: 1;
+}
+
+.menu a {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.header div,
+.footer div {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.header div {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 0 40px;
+}
+
+.footer div {
+  justify-content: center;
+}
+
+img .logo {
+}
