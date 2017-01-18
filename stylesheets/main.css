@@ -64,7 +64,6 @@
 .galleryRail {
   display: block;
   width: 240vh;
-  /*height: 95vh;*/
   overflow: scroll;
   overflow-y: hidden;
   position: absolute;
@@ -75,7 +74,6 @@ div.gallery {
   display: flex;
   overflow: auto;
   width: 240vh;
-  /*height: 95vh;*/
 }
 
 figure {
