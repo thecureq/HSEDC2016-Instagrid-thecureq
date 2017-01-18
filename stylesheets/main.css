@@ -62,18 +62,20 @@
 }
 
 .galleryRail {
-  overflow: auto;
+  display: block;
+  width: 240vh;
+  /*height: 95vh;*/
+  overflow: scroll;
+  overflow-y: hidden;
+  position: absolute;
+  margin-top: 10vh;
 }
 
 div.gallery {
-  height: 80vh;
   display: flex;
-  flex-direction: row;
-  position: absolute;
-  justify-content: flex-start;
-  overflow: hidden;
-  margin-top: 10vh;
-  z-index: 0;
+  overflow: auto;
+  width: 240vh;
+  /*height: 95vh;*/
 }
 
 figure {
